@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline Games Vault</title>
+  <meta name="description" content="A curated vault of the best fully offline games for PC, console, and mobile. No internet required.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Offline Games Vault</h1>
+      <p class="tagline">Curated legal collection of the best offline & free-to-play games. No unauthorized copies.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="rpg">RPG</button>
+      <button class="filter-btn" data-filter="action">Action / Roguelike</button>
+      <button class="filter-btn" data-filter="cozy">Cozy / Sim</button>
+      <button class="filter-btn" data-filter="strategy">Strategy / Puzzle</button>
+      <button class="filter-btn" data-filter="sandbox">Sandbox / Survival</button>
+    </div>
+
+    <div class="games-grid" id="games-grid">
+      <!-- Games injected by JS -->
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Built for GitHub Pages • Fully static • No tracking</p>
+      <p class="note">Only legitimate games. Offline / single-player titles + official external links. No unauthorized ports or copies.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
